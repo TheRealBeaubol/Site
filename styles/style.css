@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif; }
+
+#background {
+    background-color:#2A2A2A;
+    box-sizing:border-box;
+    position:relative;
+    width: 100%;
+    height: 100vh;
+}
+body,html{
+    margin:0;
+    padding:0;
+}
+.nav-bar {
+    position: fixed;
+    background: #000000;
+    top: 0;
+    left: 0; 
+    height: 10vh;
+    width: 100%;
+    display: flex;}
+
+.text-button {
+    display: flex;
+    margin: auto;
+    margin-left: 32%;
+    justify-content: space-between;}
+
+.home-picture { height: 200%; 
+    display: flex;
+    margin: 0;
+    justify-content: flex-start;}
+
+.nav-bar a:hover { background: #f43c80; 
+    transform: scale(1.1);}
+.nav-bar a{
+    text-decoration: none; /* enlever le soulignement des liens */
+    color: #ffffff; /* couleur du texte */
+    height: 35px; /* 37 - 2*1px border */
+    padding: 0.5em 0.75em; /* distance entre les nav 0.5em haut bas 2em gauche droite */
+    font-size: 50px; /* taille du texte */
+    transition: 0.25s; /* effet de transition */
+    display: flex;
+    align-items: center; }
+
+
+.container {
+    display: flex;
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+}
+
+.logo {
+    height: 40vh;
+    position:absolute;
+    display: flex;
+}
+
+.title {
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.biography {
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 10px; /* Add margin to separate from the title */
+}

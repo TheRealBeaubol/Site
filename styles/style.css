@@ -4,27 +4,28 @@ body {
 #background {
     background-color:#2A2A2A;
     box-sizing:border-box;
-    position:relative;
     width: 100%;
     height: 100vh;
 }
+
 body,html{
-    margin:0;
-    padding:0;
+    margin:auto;
+    padding:auto;
 }
+
 .nav-bar {
-    position: fixed;
+    position: fixed, absolute;
     background: #000000;
     top: 0;
     left: 0; 
     height: 10vh;
-    width: 100%;
+    width: 100;
     display: flex;}
 
 .text-button {
     display: flex;
     margin: auto;
-    margin-left: 32%;
+    margin-left: 65vh;
     justify-content: space-between;}
 
 .home-picture { height: 200%; 
@@ -44,26 +45,30 @@ body,html{
     display: flex;
     align-items: center; }
 
-
 .container {
     display: flex;
-    justify-content: center; /* Centrer horizontalement */
-    align-items: center; /* Centrer verticalement */
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    left: 58vh;
+    top: 20vh;
+    height: 500px;
+    width: 45%;
+    border: 10px solid black;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .logo {
-    height: 40vh;
-    position:absolute;
-    display: flex;
+    height: 55%;
 }
 
 .title {
-    color: #ffffff;
-    font-size: 50px;
 }
 
 .biography {
-    color: #ffffff;
-    font-size: 20px;
-    margin-top: 10px; /* Add margin to separate from the title */
 }
